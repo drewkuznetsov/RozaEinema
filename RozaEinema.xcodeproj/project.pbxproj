@@ -11,6 +11,9 @@
 		7A39916F2811974200E63829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39916E2811974200E63829 /* ContentView.swift */; };
 		7A3991712811974400E63829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3991702811974400E63829 /* Assets.xcassets */; };
 		7A3991742811974400E63829 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3991732811974400E63829 /* Preview Assets.xcassets */; };
+		7A3991822811A30900E63829 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3991812811A30900E63829 /* Tour.swift */; };
+		7A3991892811A37300E63829 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3991882811A37300E63829 /* Visitor.swift */; };
+		7A39918C2811ADC600E63829 /* WorkDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39918B2811ADC600E63829 /* WorkDay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		7A3991702811974400E63829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3991732811974400E63829 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A3991752811974400E63829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3991812811A30900E63829 /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		7A3991882811A37300E63829 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		7A39918B2811ADC600E63829 /* WorkDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			children = (
 				7A39916C2811974200E63829 /* RozaEinemaApp.swift */,
 				7A39916E2811974200E63829 /* ContentView.swift */,
+				7A3991842811A31300E63829 /* Models */,
 				7A3991702811974400E63829 /* Assets.xcassets */,
 				7A3991752811974400E63829 /* Info.plist */,
 				7A3991722811974400E63829 /* Preview Content */,
@@ -67,6 +74,16 @@
 				7A3991732811974400E63829 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A3991842811A31300E63829 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A39918B2811ADC600E63829 /* WorkDay.swift */,
+				7A3991812811A30900E63829 /* Tour.swift */,
+				7A3991882811A37300E63829 /* Visitor.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3991822811A30900E63829 /* Tour.swift in Sources */,
 				7A39916F2811974200E63829 /* ContentView.swift in Sources */,
 				7A39916D2811974200E63829 /* RozaEinemaApp.swift in Sources */,
+				7A3991892811A37300E63829 /* Visitor.swift in Sources */,
+				7A39918C2811ADC600E63829 /* WorkDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
